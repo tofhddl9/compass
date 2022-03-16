@@ -1,4 +1,4 @@
-package com.lgtm.default_android_project_template
+package com.lgtm.compass
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
