@@ -28,8 +28,8 @@ class RotationVectorSensor(
         _events.postValue(event)
     }
 
-    override fun onAccuracyChanged(sensor: Sensor?, accuracy: Int) {
-        //
+    override fun onAccuracyChanged(sensor: Sensor, accuracy: Int) {
+
     }
 
     override fun onStateChanged(source: LifecycleOwner, event: Lifecycle.Event) {
