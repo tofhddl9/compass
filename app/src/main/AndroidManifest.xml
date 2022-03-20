@@ -11,6 +11,7 @@
         android:theme="@style/AppTheme.Black" >
         <activity
             android:name="com.lgtm.compass.MainActivity"
+            android:screenOrientation="portrait"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
